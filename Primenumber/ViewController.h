@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *tf1;
 
+@property (weak, nonatomic) IBOutlet UIButton *btn1;
+- (IBAction)btnclick:(id)sender;
 
 @end
-
