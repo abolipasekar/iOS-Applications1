@@ -11,7 +11,6 @@
 		EAF414201DB4F60600994C70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF4141F1DB4F60600994C70 /* AppDelegate.m */; };
 		EAF414231DB4F60600994C70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF414221DB4F60600994C70 /* ViewController.m */; };
 		EAF414261DB4F60600994C70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF414241DB4F60600994C70 /* Main.storyboard */; };
-		EAF414291DB4F60600994C70 /* SimpleCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EAF414271DB4F60600994C70 /* SimpleCalculator.xcdatamodeld */; };
 		EAF4142B1DB4F60600994C70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF4142A1DB4F60600994C70 /* Assets.xcassets */; };
 		EAF4142E1DB4F60600994C70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF4142C1DB4F60600994C70 /* LaunchScreen.storyboard */; };
 		EAF414391DB4F60600994C70 /* SimpleCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF414381DB4F60600994C70 /* SimpleCalculatorTests.m */; };
@@ -43,7 +42,6 @@
 		EAF414211DB4F60600994C70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EAF414221DB4F60600994C70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EAF414251DB4F60600994C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EAF414281DB4F60600994C70 /* SimpleCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleCalculator.xcdatamodel; sourceTree = "<group>"; };
 		EAF4142A1DB4F60600994C70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAF4142D1DB4F60600994C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAF4142F1DB4F60600994C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -111,7 +109,6 @@
 				EAF4142A1DB4F60600994C70 /* Assets.xcassets */,
 				EAF4142C1DB4F60600994C70 /* LaunchScreen.storyboard */,
 				EAF4142F1DB4F60600994C70 /* Info.plist */,
-				EAF414271DB4F60600994C70 /* SimpleCalculator.xcdatamodeld */,
 				EAF4141B1DB4F60600994C70 /* Supporting Files */,
 			);
 			path = SimpleCalculator;
@@ -277,7 +274,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF414231DB4F60600994C70 /* ViewController.m in Sources */,
-				EAF414291DB4F60600994C70 /* SimpleCalculator.xcdatamodeld in Sources */,
 				EAF414201DB4F60600994C70 /* AppDelegate.m in Sources */,
 				EAF4141D1DB4F60600994C70 /* main.m in Sources */,
 			);
@@ -505,6 +501,7 @@
 				EAF4144A1DB4F60600994C70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAF4144B1DB4F60600994C70 /* Build configuration list for PBXNativeTarget "SimpleCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +510,7 @@
 				EAF4144D1DB4F60600994C70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAF4144E1DB4F60600994C70 /* Build configuration list for PBXNativeTarget "SimpleCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,21 +519,9 @@
 				EAF414501DB4F60600994C70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		EAF414271DB4F60600994C70 /* SimpleCalculator.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				EAF414281DB4F60600994C70 /* SimpleCalculator.xcdatamodel */,
-			);
-			currentVersion = EAF414281DB4F60600994C70 /* SimpleCalculator.xcdatamodel */;
-			path = SimpleCalculator.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = EAF414101DB4F60600994C70 /* Project object */;
 }
