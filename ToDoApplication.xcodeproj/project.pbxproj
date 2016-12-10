@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D5458231DFBEE1800DEFF74 /* ToDoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5458221DFBEE1800DEFF74 /* ToDoTableViewController.m */; };
 		1D9A369E1DF72A430024CD86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A369D1DF72A430024CD86 /* main.m */; };
 		1D9A36A11DF72A430024CD86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A36A01DF72A430024CD86 /* AppDelegate.m */; };
-		1D9A36A41DF72A430024CD86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A36A31DF72A430024CD86 /* ViewController.m */; };
 		1D9A36A71DF72A430024CD86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D9A36A51DF72A430024CD86 /* Main.storyboard */; };
 		1D9A36A91DF72A430024CD86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9A36A81DF72A430024CD86 /* Assets.xcassets */; };
 		1D9A36AC1DF72A430024CD86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D9A36AA1DF72A430024CD86 /* LaunchScreen.storyboard */; };
@@ -35,12 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D5458211DFBEE1800DEFF74 /* ToDoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoTableViewController.h; sourceTree = "<group>"; };
+		1D5458221DFBEE1800DEFF74 /* ToDoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoTableViewController.m; sourceTree = "<group>"; };
 		1D9A36991DF72A430024CD86 /* ToDoApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9A369D1DF72A430024CD86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D9A369F1DF72A430024CD86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D9A36A01DF72A430024CD86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D9A36A21DF72A430024CD86 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1D9A36A31DF72A430024CD86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1D9A36A61DF72A430024CD86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D9A36A81DF72A430024CD86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D9A36AB1DF72A430024CD86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 			children = (
 				1D9A369F1DF72A430024CD86 /* AppDelegate.h */,
 				1D9A36A01DF72A430024CD86 /* AppDelegate.m */,
-				1D9A36A21DF72A430024CD86 /* ViewController.h */,
-				1D9A36A31DF72A430024CD86 /* ViewController.m */,
+				1D5458211DFBEE1800DEFF74 /* ToDoTableViewController.h */,
+				1D5458221DFBEE1800DEFF74 /* ToDoTableViewController.m */,
 				1D9A36A51DF72A430024CD86 /* Main.storyboard */,
 				1D9A36A81DF72A430024CD86 /* Assets.xcassets */,
 				1D9A36AA1DF72A430024CD86 /* LaunchScreen.storyboard */,
@@ -273,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D9A36A41DF72A430024CD86 /* ViewController.m in Sources */,
+				1D5458231DFBEE1800DEFF74 /* ToDoTableViewController.m in Sources */,
 				1D9A36A11DF72A430024CD86 /* AppDelegate.m in Sources */,
 				1D9A369E1DF72A430024CD86 /* main.m in Sources */,
 			);
@@ -507,6 +507,7 @@
 				1D9A36C81DF72A430024CD86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D9A36C91DF72A430024CD86 /* Build configuration list for PBXNativeTarget "ToDoApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +516,7 @@
 				1D9A36CB1DF72A430024CD86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D9A36CC1DF72A430024CD86 /* Build configuration list for PBXNativeTarget "ToDoApplicationUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +525,7 @@
 				1D9A36CE1DF72A430024CD86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
