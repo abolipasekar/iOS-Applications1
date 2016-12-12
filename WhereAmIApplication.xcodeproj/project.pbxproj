@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D598EA01DFED6650014DFDF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D598E9F1DFED6650014DFDF /* MapKit.framework */; };
 		1D80589B1DFED1A1005A6A04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D80589A1DFED1A1005A6A04 /* main.m */; };
 		1D80589E1DFED1A1005A6A04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D80589D1DFED1A1005A6A04 /* AppDelegate.m */; };
 		1D8058A11DFED1A1005A6A04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8058A01DFED1A1005A6A04 /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D598E9F1DFED6650014DFDF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		1D8058961DFED1A1005A6A04 /* WhereAmIApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereAmIApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D80589A1DFED1A1005A6A04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D80589C1DFED1A1005A6A04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D598EA01DFED6650014DFDF /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D598E9E1DFED6650014DFDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D598E9F1DFED6650014DFDF /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1D80588D1DFED1A0005A6A04 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +96,7 @@
 				1D8058B21DFED1A1005A6A04 /* WhereAmIApplicationTests */,
 				1D8058BD1DFED1A1005A6A04 /* WhereAmIApplicationUITests */,
 				1D8058971DFED1A1005A6A04 /* Products */,
+				1D598E9E1DFED6650014DFDF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -425,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WhereAmIApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = abc.WhereAmIApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WhereAmIApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = abc.WhereAmIApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +521,7 @@
 				1D8058C51DFED1A1005A6A04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D8058C61DFED1A1005A6A04 /* Build configuration list for PBXNativeTarget "WhereAmIApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +530,7 @@
 				1D8058C81DFED1A1005A6A04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D8058C91DFED1A1005A6A04 /* Build configuration list for PBXNativeTarget "WhereAmIApplicationUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +539,7 @@
 				1D8058CB1DFED1A1005A6A04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
